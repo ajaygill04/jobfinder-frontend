@@ -55,9 +55,9 @@ function App() {
         
         <div className="dev-social">
           <a href="https://github.com/ajaygill04" target="_blank" rel="noreferrer" className="dev-social-link">🐙</a>
-          <a href="#" className="dev-social-link">💼</a>
-          <a href="#" className="dev-social-link">📧</a>
-          <a href="#" className="dev-social-link">🐦</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="dev-social-link">💼</a>
+          <a href="mailto:ajaygill@email.com" target="_blank" rel="noreferrer" className="dev-social-link">📧</a>
+          <a href="https://twitter.com" target="_blank" rel="noreferrer" className="dev-social-link">🐦</a>
         </div>
         
         <div className="dev-divider"></div>
