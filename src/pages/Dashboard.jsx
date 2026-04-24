@@ -17,7 +17,10 @@ const Dashboard = () => {
     } catch (err) { console.error(err); }
   };
 
-  useEffect(() => { fetchMyJobs(); }, []);
+  useEffect(() => {
+    fetchMyJobs();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const deleteJob = async (id) => {
     if (!window.confirm("Delete this job?")) return;
